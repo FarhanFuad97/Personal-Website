@@ -55,7 +55,7 @@
     height: 300px;
     border-radius: 100%;
 }
-/*------Home section style End------*/
+/*------About section style Start------*/
 .about-img{
     width: 300px;
     height: 300px;
@@ -84,8 +84,8 @@
     color: brown;
     font-weight: 700;
 }
-/*------About section style End------*/
-.heading-service{
+/*------Service section style Start------*/
+.heading-service, .heading-pro{
 color: red;
 padding: 10px;
 text-align: center;
@@ -109,4 +109,48 @@ text-align: center;
     align-items: center;
     gap: 20px;
     padding: 50px;
+}
+/*------Protfolio section style Start------*/
+.protfolio-box{
+    background-color: rgb(214, 170, 8);
+    padding: 30px;
+    border-radius: 100px;
+    border: 1px solid rgb(147, 143, 143);
+    text-align: center;
+    color: white;
+    }
+    .protfolio-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 50px;}
+ 
+/*------Contact section style Start------*/        
+.contact form{
+ width: 800px;
+ margin: 10px auto;
+ text-align: center;
+
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+.input-box input
+{
+    width: 100%;
+  padding: 20px;
+    font-size: 10px;
+    background-color: aqua;
+    margin: 20px;
+    font-weight: 700;
+}
+textarea{
+    background-color: rgb(225, 225, 214);
+    width: 100%;
+    padding: 10px;
+    font-weight: 800;
+   
 }
