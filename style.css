@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 0, 251);
+    padding: 15px;
+    top: 0;
+    left: 0;
+
+}
+.logo{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding:5px;
+
+}
+.navbar a{
+    font-size: 20px;
+    color: rgb(23, 35, 166);
+    font-weight: 600;
+    margin-left: 20px;
+}
+/*------Home section style start------*/
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.home-content h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+   
+}
+.home-content h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+   
+}
+.home-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+/*------Home section style End------*/
+.about-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 100px
+}
+.about-content h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+   
+}
+.heading-about{
+    color: rgb(0, 51, 255);
+}
+.button{
+    border: 1px solid aqua;
+    padding: 10px;
+    margin-top: 10px;
+    color: brown;
+    font-weight: 700;
+}
+/*------About section style End------*/
+.heading-service{
+color: red;
+padding: 10px;
+text-align: center;
+}
+.service h2{
+    margin-bottom: 5px;
+}
+.service-container  .service-box{
+background-color: rgb(128, 181, 181);
+padding: 30px;
+border-radius: 100px;
+border: 1px solid red;
+text-align: center;
+}
+.web-img{
+    width: 350px;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
