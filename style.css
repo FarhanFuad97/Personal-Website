@@ -6,6 +6,9 @@
     outline: none;
     border: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 .header{
     position: fixed;
     display: flex;
