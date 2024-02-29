@@ -5,6 +5,11 @@
     text-decoration: none;
     outline: none;
     border: none;
+
+    
+}
+body{
+    background-color: rgb(230, 220, 239);
 }
 html{
     scroll-behavior: smooth;
