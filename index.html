@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <title>Personal Website</title>
 </head>
 <body>
+  <!--------------Navbar Section---------------->
     <header class="header">
-     <a href="#" class="logo">A.R Emon</a>   
+     <a href="#" class="logo">Farhan Fuad</a>   
 
      <nav class="navbar">
       <a href="#home" class="active">Home</a>
@@ -16,31 +19,38 @@
       <a href="#service">Service</a>
       <a href="#protfolio">Protfolio</a>
       <a href="#contact">Contact</a>
-     </nav>
+     </nav> 
     </header>
 <!-------Home Section--------->
     <section class="home" id="home">
        <div class="home-content">
          <h3>Hi,MySelf</h3>
-         <h1>A.R Emon</h1>
-         <h3>I am Web developer</h3>
-         <p>passionate about creating innovative and user-friendly digital experiences.</p>
+         <h1>Farhan Fuad</h1>
+         <h3>I am <span>Web developer</span></h3>
+         <p>with extensive experience for over 3 years......</p>
+         <div class="home-icon">
+          <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+          <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+          <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+          </div>
        </div>
+       
        <div>
-       <img class="home-pic" src="Emon.jpg" alt="">
+       <img class="home-pic" src="FarhanFuad.jpg" alt="">
        </div>
+       
     </section>
     <!-------About Section--------->
     <section class="about" id="about">
       <div>
-        <img class="about-img" src="Emon.jpg" alt="">
+        <img class="about-img" src="FarhanFuad.jpg" alt="">
       </div>
       <div class="about-content">
         <h2 class="heading-about">About Me</h2>
         <h3>Frontend developer</h3>
-        <p>
-          I am Abidur Rahman, a dedicated web developer passionate about crafting user-friendly and visually appealing websites. With expertise in HTML, CSS, JavaScript, and various frameworks, I strive to create seamless digital experiences. Detail-oriented and committed to staying updated with industry trends, I ensure high-quality solutions tailored to clients' needs.</p>
-        <button  class="button">Read More</button>
+        <p class="about-de">
+          I am Farhan Fuad, a dedicated web developer passionate about crafting user-friendly and visually appealing websites. With expertise in HTML, CSS, JavaScript, and various frameworks, I strive to create seamless digital experiences. Detail-oriented and committed to staying updated with industry trends, I ensure high-quality solutions tailored to clients' needs.</p>
+        <button  class="button">Read More About</button>
       </div>
     </section>
 
@@ -76,24 +86,44 @@
      <h2 class="heading-pro">Latest Projects</h2>
 
      <div class="protfolio-container">
-       <div class="protfolio-box">
-        <img class="web-img" src="web.jpg" alt="">
-        <h2>Sports Website</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nemo voluptates dolorem obcaecati sunt nobis sint atque sit unde quaerat.</p>
-        <button class="button">Details</button>
+       <div class="main-pro-box">
+        <div class="img-box">
+          <img class="web-img" src="sport.jpg" alt="">
+        </div>
+          <div class="title">
+            <h2>Sports Website</h2>
+          <p>A sports website serves as a digital platform dedicated to providing comprehensive coverage of various sports events, teams, athletes, and related news. It typically features</p>
+          <button class="button">Details</button>
+          </div> 
        </div>
-       <div class="protfolio-box">
-        <img class="web-img" src="web.jpg" alt="">
-        <h2>Bussiness Website</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nemo voluptates dolorem obcaecati sunt nobis sint atque sit unde quaerat.</p>
-        <button class="button">Details</button>
+
+       <div class="main-pro-box">
+        <div class="img-box">
+          <img class="web-img" src="business.jpg" alt="">
+        </div>
+          <div class="title">
+            <h2>Bussiness Website</h2>
+          <p>
+            A business website serves as a digital storefront, offering an online presence for companies to showcase their products, services, and brand. It acts as a hub for customer interaction, marketing, </p>
+          <button class="button">Details</button>
+          </div> 
        </div>
-       <div class="protfolio-box">
-        <img class="web-img" src="web.jpg" alt="">
-        <h2>News Website</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nemo voluptates dolorem obcaecati sunt nobis sint atque sit unde quaerat.</p>
-        <button class="button">Details</button>
+
+       <div class="main-pro-box">
+        <div class="img-box">
+          <img class="web-img" src="newss.jpg" alt="">
+        </div>
+          <div class="title">
+            <h2>News Website</h2>
+          <p>A news website is an online platform dedicated to delivering current events, breaking news, analysis, and feature stories to its audience. It serves as a digital hub for users seeking information on </p>
+          <button class="button">Details</button>
+          </div> 
        </div>
+
+
+
+
+       
      </div>
     </section>
     <!-------Contact Section--------->

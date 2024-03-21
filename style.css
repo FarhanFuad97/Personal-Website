@@ -9,18 +9,19 @@
     
 }
 body{
-    background-color: rgb(230, 220, 239);
+    background-color:#ededed;
 }
 html{
     scroll-behavior: smooth;
 }
+/*------Navbar section style start------*/
 .header{
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: rgb(255, 0, 251);
+    background-color: rgb(39, 23, 39);
     padding: 15px;
     top: 0;
     left: 0;
@@ -35,7 +36,7 @@ html{
 }
 .navbar a{
     font-size: 20px;
-    color: rgb(23, 35, 166);
+    color: white;
     font-weight: 600;
     margin-left: 20px;
 }
@@ -45,6 +46,7 @@ html{
     justify-content: space-around;
     align-items: center;
     margin-top: 80px;
+    
 }
 .home-content h3{
     font-size: 30px;
@@ -61,7 +63,22 @@ html{
 .home-pic{
     width: 300px;
     height: 300px;
-    border-radius: 100%;
+    border-radius: 100%;  
+}
+.home-icon a{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+background-color:rgb(39, 23, 39);
+border: 2px solid aqua;
+border-radius: 50%;
+font-size: 20px;
+color:white;
+text-decoration: none;
+margin: 10px 15px 30px 0;
+
 }
 /*------About section style Start------*/
 .about-img{
@@ -80,7 +97,18 @@ html{
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 10px;
+    font-weight: 600;
    
+}
+.about-content h2{
+    font-size: 30px;
+}
+.about-de{
+    font-size: 20px;
+}
+span{
+    color: rgb(132, 11, 176);
+    font-weight: bold;
 }
 .heading-about{
     color: rgb(0, 51, 255);
@@ -102,14 +130,15 @@ text-align: center;
     margin-bottom: 5px;
 }
 .service-container  .service-box{
-background-color: rgb(128, 181, 181);
+background-color: rgb(15, 232, 232);
 padding: 30px;
 border-radius: 100px;
 border: 1px solid red;
 text-align: center;
+
 }
 .web-img{
-    width: 350px;
+    width: 300px;
 }
 .service-container{
     display: flex;
@@ -119,10 +148,8 @@ text-align: center;
     padding: 50px;
 }
 /*------Protfolio section style Start------*/
-.protfolio-box{
-    background-color: rgb(214, 170, 8);
-    padding: 30px;
-    border-radius: 100px;
+.img-box{
+    padding: 20px;
     border: 1px solid rgb(147, 143, 143);
     text-align: center;
     color: white;
@@ -132,7 +159,23 @@ text-align: center;
         justify-content: center;
         align-items: center;
         gap: 20px;
-        padding: 50px;}
+        padding: 30px;
+        
+    }
+    .main-pro-box{
+        background-color: aquamarine;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px rgb(225, 225, 214);
+    }
+    .title
+    {
+            text-align: center;
+            margin-top: 5px;
+    }
+    .btn{
+        align-items: center;
+    }
  
 /*------Contact section style Start------*/        
 .contact form{
